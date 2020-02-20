@@ -1,0 +1,61 @@
+/* 1.- Set the iframeContainer padding, border*/
+
+.iframeContainer {
+  padding: 20px;
+  border: 1px solid #afa7a7;
+}
+
+/* see library: (https://getbootstrap.com/examples/sticky-footer/) */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Padding bottom by footer height */
+  padding-bottom: 80px;
+}
+
+/* Footer properties and padding on dashboard*/
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; 
+  height: 10px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+/* Foooter Properties*/
+.footer{
+	background-color: #505251; 
+    border-top-style: solid; 
+    border-top-width: 4px; 
+    border-top-color: #38ab87;
+    color: white; 
+    min-height: 50px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px; 
+    text-align: center; 
+    position: fixed;
+    padding-top: 10px; 
+	width: 100%;
+	left: 0;
+	bottom: 0;
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+  width: 80px;
+  height: 50px;
+  padding: 5px;
+  font: 12px sans-serif;
+  text-align: center;
+  color: white;
+  background: black;
+  border: 0;
+  border-radius: 10px;
+}
